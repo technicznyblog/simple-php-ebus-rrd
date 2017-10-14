@@ -1,0 +1,7 @@
+#!/bin/sh
+
+RRDPATH=/tmp
+
+rrdtool create $RRDPATH/ecotec-temperatures.rrd -s 60 DS:flowtemp:GAUGE:180:U:U DS:flowtempdesired:GAUGE:180:U:U DS:returntemp:GAUGE:180:U:U DS:storagetemp:GAUGE:180:U:U DS:outsidetemp:GAUGE:180:U:U RRA:AVERAGE:0.5:1:44640
+
+rrdtool create $RRDPATH/ecotec-params.rrd -s 60 DS:power:GAUGE:180:U:U DS:pumppower:GAUGE:180:U:U DS:blocktime:GAUGE:180:U:U DS:valve:GAUGE:180:U:U DS:pressure:GAUGE:180:U:U RRA:AVERAGE:0.5:1:44640
