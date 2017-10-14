@@ -1,7 +1,7 @@
 <?php
 
 // configuration
-$ip="192.168.150.32"; //remote ebus
+$ip="192.168.10.132"; //remote ebus
 $rrdtempfile='/tmp/ecotec-temperatures.rrd';
 $rrdparamfile='/tmp/ecotec-params.rrd';
 $counterlog='/tmp/vaillant-prenergy.log';
