@@ -1,5 +1,5 @@
 # simple-php-ebus-rrd
 
-Simple script to fetch data from Vaillant using ebusctl from ebusd project (https://github.com/john30/ebusd)
+Simple script to fetch Vaillant boiler data using ebusctl from ebusd project (https://github.com/john30/ebusd)
 
-Description at http://techniczny.wordpress.com
+Description can be found at http://techniczny.wordpress.com
